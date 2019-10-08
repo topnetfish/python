@@ -8,7 +8,7 @@ def Geturldata():
     data = {'actionFlag':'loginAuthenticate', \
             'redirect':'http://w3.huawei.com/info/cn/browseBPA.do?id=19981', \
             'uid':'z00301276', \
-            'password':'zhou@2019'
+            'password':''
             }
     session = requests.session()
     r = session.post('https://login.huawei.com/login/login.do', data = data)
